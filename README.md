@@ -3,8 +3,6 @@
 **Course:** CSCI426: Advanced Web Programming (Project Phase 1)  
 **Student:** Omar Halawani (52330594)  
 **Theme:** Restaurant Ordering System — Menu display, cart, and order tracking  
-**Live Demo:** *(Paste your Vercel URL here once deployed)*
-
 ---
 
 ## Project Description

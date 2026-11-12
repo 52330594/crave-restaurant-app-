@@ -1,16 +1,34 @@
-# React + Vite
+# CRAVE. — Restaurant Ordering System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Course:** CSCI426: Advanced Web Programming (Project Phase 1)  
+**Theme:** Restaurant Ordering System — Menu display, cart, and order tracking  
 
-Currently, two official plugins are available:
+## Project Description
+**CRAVE.** is a modern, responsive frontend web application built with ReactJS and Tailwind CSS. It simulates a complete restaurant ordering experience, enabling users to browse signature dishes, filter and search the menu by category, manage items in a live slide-over shopping cart, and track their order status in real time from kitchen preparation to delivery.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Key Features
+- **5+ Responsive Pages:** Home, Menu, Live Order Tracker (Dynamic Page), About, and Contact.
+- **Interactive Menu Filtering:** Filter dishes by category (*Burgers, Pizzas, Desserts, Drinks*) and search in real time.
+- **Global Cart State Management:** Add items, adjust quantities, calculate totals dynamically, and submit delivery details via a slide-over cart drawer.
+- **Dynamic Order Tracking:** Real-time order status stepper (*Order Received → Preparing Food → Out for Delivery → Delivered*) with interactive stage simulation.
+- **Mobile-First Responsive UI:** Adaptive navigation bar with mobile menu drawer and responsive grid layouts.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
+- **ReactJS (v19)** with **Vite**
+- **React Router DOM** (Client-side routing across pages)
+- **Tailwind CSS** (Responsive styling and layout)
+- **Lucide React** (UI icons)
+- **Git & GitHub** (Version control)
+- **Vercel / Netlify** (Frontend deployment)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
+  ```bash
+git clone [https://github.com/YOUR_USERNAME/crave-restaurant-app.git](https://github.com/YOUR_USERNAME/crave-restaurant-app.git)
+cd restaurant-app
